@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
-import PayForm from "../components/PayForm"; // کامپوننت کلاینت جداگانه
+import PayForm from "../components/PayForm";
+
+export const dynamic = "force-dynamic";
 
 export default function PayPage() {
   return <PayForm />;
