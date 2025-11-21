@@ -67,11 +67,11 @@ export default function Tabs() {
   }, [active]);
 
   return (
-    <div className="w-full">
+    <div className="w-[90vw] mx-auto">
       {/* Tabs */}
       <div
         ref={tabsRef}
-        className="flex overflow-x-auto hide-scrollbar gap-10 px-5 py-3 sticky top-5 bg-white z-20"
+        className="flex overflow-x-auto hide-scrollbar gap-10 px-5 py-3 sticky top-5 shadow-md rounded-2xl bg-white z-20"
       >
         {items.map((item) => (
           <button
@@ -94,6 +94,7 @@ export default function Tabs() {
         {items.map((item) => (
           <div
             key={item.id}
+            id={item.id}
             ref={(el) => (sectionRefs.current[item.id] = el)}
             className="scroll-mt-24"
           >

@@ -160,7 +160,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-white relative z-[100] pb-4 border-b-1">
+    <header className="bg-white relative z-[100] pb-4 border-b-1 ">
       {/* نوار بالای صفحه */}
       <section className=" bg-gradient-to-tl from-[#4B6EFF] to-[#6E8AFF] flex items-center justify-center text-white text-center text-sm md:text-[15px] p-2 md:mx-auto cursor-pointer">
         <span className="flex items-center">
