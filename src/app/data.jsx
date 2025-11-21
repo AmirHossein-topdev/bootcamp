@@ -61,7 +61,7 @@ const items = [
     content: (
       <>
         <h2 className="text-xl font-bold mb-5">مرور چند نکته مهم</h2>
-        <ul class="list-disc list-inside space-y-2 text-lg my-5 text-gray-600">
+        <ul className="list-disc list-inside space-y-2 text-lg my-5 text-gray-600">
           <li>
             برای ثبت نام در این دوره به هیچ پیش‌نیاز یا پیش‌زمینه‌ای نیاز
             ندارید. پس اگر می‌خواهید برنامه‌نویسی را از صفر شروع کنید، این
@@ -352,7 +352,7 @@ const items = [
   },
   //   accordion
   {
-    id: "accordion",
+    id: "accordion1",
     title: "سرفصل‌ها",
     content: <Accordions />,
   },
@@ -398,7 +398,7 @@ const items = [
   //   accordion
   {
     id: "accordion",
-    title: "سرفصل‌ها",
+    title: "سوالات متداول",
     content: <Faq />,
   },
   //   presingin
@@ -465,16 +465,17 @@ const items = [
   {
     id: "singin",
     title: "ثبت نام",
+  
     content: (
       <>
         <h2 className="text-xl font-bold mb-5">ثبت نام</h2>
-        <ul class="text-gray-700 leading-7 space-y-4">
+        <ul className="text-gray-700 leading-7 space-y-4">
           <li>
             اگر دانشجوی قبلی دوره‌ها هستید، شماره موبایلی که با آن دوره‌ها را
             ثبت‌نام کرده‌اید، به
             <a
               href="https://t.me/fronthooks_support"
-              class="text-primary-900 font-bold"
+              className="text-primary-900 font-bold"
               target="_blank"
               rel="noreferrer"
             >
@@ -496,7 +497,7 @@ const items = [
             است. این تخفیف ویژه برای ۳۰ نفر اول است و تا فصل بعدی بوت‌کمپ فرانت
             برگزار
             <strong>نخواهد شد.</strong>
-            <span class="text-red-500 font-bold">
+            <span className="text-red-500 font-bold">
               این آخرین دوره‌ای است که امکان ثبت‌نام در بوت‌کمپ با این هزینه
               وجود دارد. در بوت‌کمپ‌های بعدی، افزایش شهریه قطعی خواهد بود.
             </span>

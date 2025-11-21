@@ -1,9 +1,21 @@
 "use client";
-import { useRef, React } from "react";
+import React from "react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="w-[90vw] mx-auto my-3 mt-7 md:flex md:justify-evenly md:items-center md:gap-">
+    <section
+      className="
+        w-[90vw] mx-auto my-3 mt-7
+        md:flex md:justify-evenly md:items-center
+        bg-[url('https://fronthooks.ir/images/grid-pattern.svg')]
+        bg-repeat
+        bg-center
+        bg-[length:40px_40px]
+        relative
+        overflow-hidden
+      "
+    >
       <div className="">
         <h2 className="font-extrabold text-xl text-blue-900 flex items-center gap-2">
           <svg
@@ -11,11 +23,11 @@ export default function Hero() {
             width="24"
             height="24"
             fill="none"
-            class="h-5 w-5"
+            className="h-5 w-5"
           >
             <path
               stroke="#363853"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               d="M12 8.75a3.25 3.25 0 1 1 0 6.5 3.25 3.25 0 0 1 0-6.5Z"
             ></path>
             <path
@@ -29,30 +41,32 @@ export default function Hero() {
           بوت کمپ جامع فرانت اند + ورکشاپ کاریابی
         </h2>
         <h3 className="mt-4 text-blue-900 font-bold text-2xl my-3">
-          از صفر تا استخدام؛یادگیری از جنس تجربه!
+          از صفر تا استخدام؛ یادگیری از جنس تجربه!
         </h3>
-        <p className="font-light text-sm text-gray-500 ">
-          برنامه روزانه و منتورینگ تا استخدام ، پروزه های واقعی ، کلاس های
-          انلاین هفتگی ، ورکشاپ کاریابی و پولسازی از لیندکدین
+        <p className="font-light text-sm text-gray-500">
+          برنامه روزانه و منتورینگ تا استخدام، پروژه‌های واقعی، کلاس‌های
+          آنلاین هفتگی، ورکشاپ کاریابی و پولسازی از لینکدین
         </p>
         <div className="flex justify-evenly text-sm text-gray-500 my-5 mb-8">
           <div className="flex items-center gap-2">
             <img src="/images/clock.svg" alt="clock" width={25} /> ۱۶۰ ساعت
           </div>
           <div className="flex items-center gap-2">
-            <img src="/images/callender.svg" alt="clock" width={25} /> ۳۶ هفته
+            <img src="/images/callender.svg" alt="calendar" width={25} /> ۳۶ هفته
           </div>
           <div className="flex items-center gap-2">
-            <img src="/images/winter.svg" alt="clock" width={25} /> زمستان ۱۴۰۴
+            <img src="/images/winter.svg" alt="winter" width={25} /> زمستان ۱۴۰۴
           </div>
         </div>
-        <a
-          href="/"
+
+        <Link
+          href="#introduction"
           className="bg-gradient-to-tl from-[#4B6EFF] to-[#6E8AFF] mt-10 p-2 px-3 rounded-3xl text-white font-bold shadow-xl"
         >
           بزن بریم!
-        </a>
+        </Link>
       </div>
+
       <div className="">
         <div className="mx-auto">
           <img

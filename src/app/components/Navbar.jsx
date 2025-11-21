@@ -24,10 +24,12 @@ export default function Navbar({ menu, setMenu }) {
 
   const links = [
     { to: "/", label: "صفحه اصلی" },
-    { to: "/products", label: "فروشگاه" },
-    { to: "/blog", label: "مقالات" },
-    { to: "/contact-us", label: "تماس باما" },
-    { to: "/about-us", label: "درباره ما" },
+        { to: "/#introduction", label: "دوره فرانت اند" },
+
+    { to: "/#feature", label: "ویزگی های دوره" },
+    { to: "/#accordion1", label: " سرفصل ها" },
+        { to: "/#singin", label: "ثبت نام" },
+
   ];
 
   return (

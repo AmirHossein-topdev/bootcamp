@@ -48,18 +48,18 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto mt-16 md:mt-5">
         {/* text */}
         <div>
-          <h2 class="text-primary font-bold text-xs sm:text-sm mb-4">
+          <h2 className="text-primary font-bold text-xs sm:text-sm mb-4">
             آکادمی آنلاین فرانت هوکس، دوره‌های کوچ محور
             <strong>برنامه نویسی وب</strong>
           </h2>
 
-          <div class="sm:leading-7 text-xs sm:text-sm leading-5">
+          <div className="sm:leading-7 text-xs sm:text-sm leading-5">
             <span>
               <strong>صاحب محمدی هستم، برنامه نویس وب</strong> و مدیر وبسایت
               آموزشی فرانت هوکس.
             </span>
 
-            <p class="leading-5 md:leading-7 mt-2">
+            <p className="leading-5 md:leading-7 mt-2">
               ارائه آموزشی کاربردی، پروژه محور در کنار مربی هدف اصلی ماست. ابتدا
               در یک مسیر یادگیری دقیق قرار می‌گیرید. در این مسیر همه آموزش‌ها با
               وسواس خاصی طراحی شده‌اند به گونه‌ای که مفاهیم برنامه نویسی را در
@@ -72,13 +72,13 @@ export default function Footer() {
               مشخص به همراه مربی و پشتیبان.
             </p>
 
-            <p class="leading-5 md:leading-7 mt-2">
+            <p className="leading-5 md:leading-7 mt-2">
               شما می‌توانید از طریق
               <a
                 href="https://www.instagram.com/sahebmohamadi.ir/"
                 target="_blank"
                 rel="noreferrer"
-                class="text-blue-600"
+                className="text-blue-600"
               >
                 اینستاگرام
               </a>
@@ -87,7 +87,7 @@ export default function Footer() {
                 href="https://t.me/fronthooks_support"
                 target="_blank"
                 rel="noreferrer"
-                class="text-blue-600"
+                className="text-blue-600"
               >
                 تلگرام
               </a>
@@ -96,7 +96,7 @@ export default function Footer() {
                 href="https://ir.linkedin.com/in/saheb-mohamadi-227ab4112"
                 target="_blank"
                 rel="noreferrer"
-                class="text-blue-600"
+                className="text-blue-600"
               >
                 لینکدین
               </a>
