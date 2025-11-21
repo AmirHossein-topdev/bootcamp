@@ -13,10 +13,10 @@ const items = [
     title: "معرفی",
     content: (
       <>
-        <h2 className="text-2xl font-bold mb-5">
+        <h2 className="text-2xl font-bold mb-5 font-[BYekan]">
           بوت کمپ فرانت اند زمستان ۱۴۰۴؛ شروعی مطمئن برای برنامه نویسی
         </h2>
-        <p className="text-gray-600">
+        <p className="text-gray-600 ">
           ما باور داریم آموزش باید شما را تا رسیدن به بازار کار همراهی کند. به
           همین دلیل،
           <strong>بوت‌کمپ زمستان ۱۴۰۴</strong> تنها یک دوره آموزشی نیست؛ بلکه
@@ -412,27 +412,36 @@ const items = [
         <p className="mb-2 text-base text-gray-700 leading-loose">
           میتوانید از طریق راه های ارتباطی پایین با ما در ارتباط باشید:
         </p>
-      <ul className="space-y-2">
-  <li className="flex gap-2 items-center">
-    <FaPhoneFlip className="text-amber-600" />
-    <a href="tel:09395495581" className="hover:underline">
-      تماس تلفنی : 09395495581
-    </a>
-  </li>
-  <li className="flex gap-2 items-center">
-    <FaTelegram className="text-blue-600" />
-    <a href="https://t.me/mortrza0" target="_blank" rel="noreferrer" className="hover:underline">
-      پشتیبانی تلگرام
-    </a>
-  </li>
-  <li className="flex gap-2 items-center">
-    <IoLogoWhatsapp className="text-green-800" />
-    <a href="https://wa.me/989395495581" target="_blank" rel="noreferrer" className="hover:underline">
-      پشتیبانی واتس اپ
-    </a>
-  </li>
-</ul>
-
+        <ul className="space-y-2">
+          <li className="flex gap-2 items-center">
+            <FaPhoneFlip className="text-amber-600" />
+            <a href="tel:09395495581" className="hover:underline">
+              تماس تلفنی : 09395495581
+            </a>
+          </li>
+          <li className="flex gap-2 items-center">
+            <FaTelegram className="text-blue-600" />
+            <a
+              href="https://t.me/mortrza0"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:underline"
+            >
+              پشتیبانی تلگرام
+            </a>
+          </li>
+          <li className="flex gap-2 items-center">
+            <IoLogoWhatsapp className="text-green-800" />
+            <a
+              href="https://wa.me/989395495581"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:underline"
+            >
+              پشتیبانی واتس اپ
+            </a>
+          </li>
+        </ul>
       </>
     ),
   },
