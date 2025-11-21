@@ -412,32 +412,27 @@ const items = [
         <p className="mb-2 text-base text-gray-700 leading-loose">
           میتوانید از طریق راه های ارتباطی پایین با ما در ارتباط باشید:
         </p>
-        <ul className="space-y-2">
-          <li className="flex gap-2 items-center">
-            <FaPhoneFlip className="text-amber-600" />
-            <a href="" className="">
-              09123456789
-            </a>
-          </li>
-          <li className="flex gap-2 items-center">
-            <FaTelegram className="text-blue-600" />
-            <a href="" className="">
-              test
-            </a>
-          </li>
-          <li className="flex gap-2 items-center">
-            <IoLogoWhatsapp className="text-green-800" />
-            <a href="" className="">
-              test
-            </a>
-          </li>
-          <li className="flex gap-2 items-center">
-            <RiInstagramFill className="text-rose-500" />
-            <a href="" className="">
-              test
-            </a>
-          </li>
-        </ul>
+      <ul className="space-y-2">
+  <li className="flex gap-2 items-center">
+    <FaPhoneFlip className="text-amber-600" />
+    <a href="tel:09395495581" className="hover:underline">
+      تماس تلفنی : 09395495581
+    </a>
+  </li>
+  <li className="flex gap-2 items-center">
+    <FaTelegram className="text-blue-600" />
+    <a href="https://t.me/mortrza0" target="_blank" rel="noreferrer" className="hover:underline">
+      پشتیبانی تلگرام
+    </a>
+  </li>
+  <li className="flex gap-2 items-center">
+    <IoLogoWhatsapp className="text-green-800" />
+    <a href="https://wa.me/989395495581" target="_blank" rel="noreferrer" className="hover:underline">
+      پشتیبانی واتس اپ
+    </a>
+  </li>
+</ul>
+
       </>
     ),
   },
@@ -449,7 +444,7 @@ const items = [
       <>
         <h2 className="text-xl font-bold mb-5"> تجربه دانشجویان</h2>
         <p>بخشی از تجربه های دانشجویان بوت کمپ های قبلی رو با هم ببینیم:</p>
-        <div className="flex gap-4 my-5 overflow-scroll hide-scrollbar">
+        {/* <div className="flex gap-4 my-5 overflow-scroll hide-scrollbar">
           {images.map((num) => (
             <img
               key={num}
@@ -458,7 +453,7 @@ const items = [
               className="w-[70%] h-auto rounded-lg shadow"
             />
           ))}
-        </div>
+        </div> */}
       </>
     ),
   },
