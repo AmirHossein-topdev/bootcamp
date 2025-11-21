@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="w-[90vw] mx-auto my-3 mt-7 md:flex md:justify-evenly md:items-center md:gap-">
       <div className="">
-        <h2 className="font-extrabold text-xl flex items-center gap-2">
+        <h2 className="font-extrabold text-xl text-blue-900 flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -28,7 +28,7 @@ export default function Hero() {
           </svg>
           بوت کمپ جامع فرانت اند + ورکشاپ کاریابی
         </h2>
-        <h3 className="mt-4 font-bold text-2xl my-3">
+        <h3 className="mt-4 text-blue-900 font-bold text-2xl my-3">
           از صفر تا استخدام؛یادگیری از جنس تجربه!
         </h3>
         <p className="font-light text-sm text-gray-500 ">
