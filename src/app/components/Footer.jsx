@@ -5,26 +5,29 @@ import {
   FaCheckCircle,
   FaPhoneAlt,
 } from "react-icons/fa";
-
+import { FaTelegram } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaPhoneFlip } from "react-icons/fa6";
 export default function Footer() {
   const footerLinks = [
     {
-      title: "خدمات مشتریان",
+      title: "بخش های سایت",
       links: [
-        { name: "پرسش‌های متداول", href: "#" },
-        { name: "شرایط بازگشت", href: "#" },
-        { name: "راهنمای خرید", href: "#" },
-        { name: "سنجش رضایتمندی", href: "#" },
+        { name: " دوره های آموزشی", href: "#" },
+        { name: "بلاگ های آموزشی ", href: "#" },
+        { name: " درباره ما ", href: "#" },
+        { name: "شروع یادگیری ", href: "#" },
       ],
     },
     {
-      title: "درباره فروشگاه",
+      title: "دوره های آموزشی ",
       links: [
-        { name: "درباره ما", href: "/about-us" },
-        { name: "تماس با ما", href: "/contact-us" },
-        { name: "قوانین و مقررات", href: "#" },
-        { name: "فرصت‌های شغلی", href: "#" },
-        { name: "همکاری در فروش", href: "#" },
+        { name: " دوره متخصص ریکت و ریداکس", href: "/about-us" },
+        { name: "  دوره متخصص Next.js", href: "/contact-us" },
+        { name: " دوره پیشرفته جاوااسکریپت", href: "#" },
+        { name: " دوره پروژه محور تیلویند", href: "#" },
+        { name: "  دوره طراحی وب رسپانسیو", href: "#" },
       ],
     },
     {
@@ -40,66 +43,114 @@ export default function Footer() {
     },
   ];
 
-  const featureCards = [
-    {
-      icon: <FaBullseye className="text-cyan-700" size={20} />,
-      title: "کیفیت و قیمت مناسب",
-      subtitle: "مورد پسند شما",
-    },
-    {
-      icon: <FaCreditCard className="text-cyan-700" size={20} />,
-      title: "امکان خرید اقساطی",
-      subtitle: "بی قید و شرط",
-    },
-    {
-      icon: <FaCheckCircle className="text-cyan-700" size={20} />,
-      title: "تضمین اصالت کالا",
-      subtitle: "کاملا تضمینی",
-    },
-    {
-      icon: <FaPhoneAlt className="text-cyan-700" size={20} />,
-      title: "پشتیبانی 24 ساعته",
-      subtitle: "حتی روزهای تعطیل",
-    },
-  ];
-
   return (
-    <footer className="relative bg-[url('/images/snow-bg.png')] bg-cover bg-center bg-white/60 bg-blend-overlay text-gray-900 p-8 ">
-      {/* باکس سفید بالای فوتر */}
-      <div className="absolute left-1/2 -top-16 md:-top-10 -translate-x-1/2 w-[90%] md:w-4/5 bg-white border rounded-2xl shadow-xl p-4 py-5 grid grid-cols-3 md:grid-cols-4 gap-y-6 gap-x-2">
-        {featureCards.map((card, index) => (
-          <div
-            key={index}
-            className={`flex items-start gap-2 ${
-              index === 3 ? "col-span-3 md:col-span-1 justify-center" : ""
-            }`}
-          >
-            <div>{card.icon}</div>
-            <div>
-              <h4 className="font-bold text-[11px] md:text-[14px] text-gray-800">
-                {card.title}
-              </h4>
-              <p className="text-[9px] md:text-[12px] text-gray-500">
-                {card.subtitle}
-              </p>
-            </div>
-          </div>
-        ))}
-      </div>
-
+    <footer className="bg-[url('/images/snow-bg.png')] bg-cover bg-center bg-white/60 bg-blend-overlay text-gray-900 p-8 ">
       <div className="max-w-6xl mx-auto mt-16 md:mt-5">
-        {/* لوگو */}
-        <img
-          src="/images/snowman.png"
-          alt="snowman"
-          className="w-64 h-auto mb-6"
-        />
+        {/* text */}
+        <div>
+          <h2 class="text-primary font-bold text-xs sm:text-sm mb-4">
+            آکادمی آنلاین فرانت هوکس، دوره‌های کوچ محور
+            <strong>برنامه نویسی وب</strong>
+          </h2>
 
-        <p className="my-3 text-xs leading-relaxed max-w-2xl">
-          در فروشگاه پوشاک زمستانی زیبا، ما بهترین و جذاب‌ترین پوشاک زمستانی را
-          برای علاقه‌مندان به زمستان فراهم می‌کنیم. با تمرکز بر کیفیت، زیبایی و
-          تنوع، هدف ما فروش محصولاتی است که حس خوب و گرما را به شما هدیه کند.
-        </p>
+          <div class="sm:leading-7 text-xs sm:text-sm leading-5">
+            <span>
+              <strong>صاحب محمدی هستم، برنامه نویس وب</strong> و مدیر وبسایت
+              آموزشی فرانت هوکس.
+            </span>
+
+            <p class="leading-5 md:leading-7 mt-2">
+              ارائه آموزشی کاربردی، پروژه محور در کنار مربی هدف اصلی ماست. ابتدا
+              در یک مسیر یادگیری دقیق قرار می‌گیرید. در این مسیر همه آموزش‌ها با
+              وسواس خاصی طراحی شده‌اند به گونه‌ای که مفاهیم برنامه نویسی را در
+              طی پروژه‌های متنوع به خوبی درک کنید. در طی مسیر شما قطعا تنها
+              نخواهید بود، بلکه مربی کارآزموده در کنارتان هست تا خیالتان از بابت
+              مشکلات فنی و مشاوره‌ای راحت باشد. زمان شما برای ما مهم است و
+              می‌خواهیم بدون سعی و خطا در کمترین زمان ممکن به بازار کار برسید.
+              علاوه بر این، پشتیبانی دوره‌ها مادام العمر است و برای همیشه به
+              سوالات شما پاسخ داده می‌شود. این یعنی خلق یک تجربه خوب در یک مسیر
+              مشخص به همراه مربی و پشتیبان.
+            </p>
+
+            <p class="leading-5 md:leading-7 mt-2">
+              شما می‌توانید از طریق
+              <a
+                href="https://www.instagram.com/sahebmohamadi.ir/"
+                target="_blank"
+                rel="noreferrer"
+                class="text-blue-600"
+              >
+                اینستاگرام
+              </a>
+              ،
+              <a
+                href="https://t.me/fronthooks_support"
+                target="_blank"
+                rel="noreferrer"
+                class="text-blue-600"
+              >
+                تلگرام
+              </a>
+              ، یا
+              <a
+                href="https://ir.linkedin.com/in/saheb-mohamadi-227ab4112"
+                target="_blank"
+                rel="noreferrer"
+                class="text-blue-600"
+              >
+                لینکدین
+              </a>
+              با من در ارتباط باشید.
+            </p>
+          </div>
+        </div>
+        {/* socials */}
+        <ul className="flex justify-center gap-6 items-center my-6">
+          <li>
+            <a href="tel:09123456789">
+              <FaPhoneFlip
+                size={30}
+                className="text-amber-600 hover:scale-110 transition-transform"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://t.me/fronthooks_support"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTelegram
+                size={30}
+                className="text-blue-600 hover:scale-110 transition-transform"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/09123456789"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IoLogoWhatsapp
+                size={30}
+                className="text-green-800 hover:scale-110 transition-transform"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/yourprofile"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <RiInstagramFill
+                size={30}
+                className="text-rose-500 hover:scale-110 transition-transform"
+              />
+            </a>
+          </li>
+        </ul>
 
         {/* ستون‌ها */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-6">
@@ -113,7 +164,7 @@ export default function Footer() {
               <h3 className="font-bold text-lg mb-2">{section.title}</h3>
               <span className="block w-15 h-1 bg-cyan-700 mb-4 rounded"></span>
               <ul
-                className={`space-y-2 text-sm ${
+                className={`space-y-2 text-sm list-disc list-inside text-gray-400 ${
                   section.title === "اطلاعات تماس" ? "whitespace-nowrap" : ""
                 }`}
               >
@@ -121,7 +172,7 @@ export default function Footer() {
                   <li key={index}>
                     <a
                       href={link.href}
-                      className="hover:text-blue-600 transition"
+                      className="hover:text-blue-600 transition text-gray-700"
                     >
                       {link.name}
                     </a>

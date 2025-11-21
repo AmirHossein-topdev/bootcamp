@@ -1,5 +1,7 @@
 import Accordions from "./components/Accordions";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import Payment from "./components/Payment";
 import Texts from "./components/Texts";
 
 export default function Home() {
@@ -7,24 +9,7 @@ export default function Home() {
     <section className=" text-black">
       <Hero />
       <Texts />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <Payment />
     </section>
   );
 }

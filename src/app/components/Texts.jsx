@@ -1,6 +1,7 @@
 "use client";
 import { useRef, useState, useEffect } from "react";
 import items from "../data";
+
 export default function Texts() {
   const refs = useRef([]);
   const containerRef = useRef(null);
@@ -10,15 +11,12 @@ export default function Texts() {
   const scrollTo = (index) => {
     refs.current[index]?.scrollIntoView({ behavior: "smooth", block: "start" });
     setActiveIndex(index);
+
+    // تب فعال رو داخل کانتینر افقی ببریم
+    const btn = containerRef.current.children[index];
+    btn?.scrollIntoView({ behavior: "smooth", inline: "center" });
   };
 
-  // sections اصلی + اضافه کردن یک section برای Accordion
-  const sections = [
-    { id: "introduction", title: "معرفی" },
-    { id: "feature1", title: "نیازمندی‌ها" },
-    { id: "feature2", title: "ویژگی‌ها" },
-    { id: "accordion", title: "سر فصل‌ها" }, // ← این اضافه شد
-  ];
   // فعال کردن دکمه هنگام اسکرول کاربر
   useEffect(() => {
     const handleScroll = () => {
@@ -28,18 +26,25 @@ export default function Texts() {
         const bottom = top + ref.offsetHeight;
         return scrollPosition >= top && scrollPosition < bottom;
       });
-      if (currentIndex !== -1) setActiveIndex(currentIndex);
+      if (currentIndex !== -1 && currentIndex !== activeIndex) {
+        setActiveIndex(currentIndex);
+
+        // تب فعال رو داخل کانتینر افقی ببریم
+        const btn = containerRef.current.children[currentIndex];
+        btn?.scrollIntoView({ behavior: "smooth", inline: "center" });
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [activeIndex]);
+
   return (
-    <section className="">
-      <div className="">
+    <section>
+      <div>
         {/* دکمه‌ها */}
         <div
-          className="flex space-x-4 px-2 overflow-x-auto hide-scrollbar top-10 sticky w-full py-2 bg-white z-10"
+          className="flex space-x-4 px-2 overflow-x-auto hide-scrollbar text-lg top-3 sticky w-full py-2 z-10 bg-white/50 backdrop-blur-md"
           ref={containerRef}
         >
           {items.map((item, idx) => (
