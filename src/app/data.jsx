@@ -1,3 +1,4 @@
+// src\app\data.jsx
 import Accordions from "./components/Accordions";
 import Faq from "./components/Faq";
 import { FaTelegram } from "react-icons/fa";
@@ -465,7 +466,7 @@ const items = [
   {
     id: "singin",
     title: "ثبت نام",
-  
+
     content: (
       <>
         <h2 className="text-xl font-bold mb-5">ثبت نام</h2>

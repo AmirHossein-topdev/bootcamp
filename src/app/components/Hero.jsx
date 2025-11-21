@@ -44,15 +44,16 @@ export default function Hero() {
           از صفر تا استخدام؛ یادگیری از جنس تجربه!
         </h3>
         <p className="font-light text-sm text-gray-500">
-          برنامه روزانه و منتورینگ تا استخدام، پروژه‌های واقعی، کلاس‌های
-          آنلاین هفتگی، ورکشاپ کاریابی و پولسازی از لینکدین
+          برنامه روزانه و منتورینگ تا استخدام، پروژه‌های واقعی، کلاس‌های آنلاین
+          هفتگی، ورکشاپ کاریابی و پولسازی از لینکدین
         </p>
         <div className="flex justify-evenly text-sm text-gray-500 my-5 mb-8">
           <div className="flex items-center gap-2">
             <img src="/images/clock.svg" alt="clock" width={25} /> ۱۶۰ ساعت
           </div>
           <div className="flex items-center gap-2">
-            <img src="/images/callender.svg" alt="calendar" width={25} /> ۳۶ هفته
+            <img src="/images/callender.svg" alt="calendar" width={25} /> ۳۶
+            هفته
           </div>
           <div className="flex items-center gap-2">
             <img src="/images/winter.svg" alt="winter" width={25} /> زمستان ۱۴۰۴
