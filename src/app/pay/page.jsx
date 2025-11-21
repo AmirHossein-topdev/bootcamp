@@ -1,4 +1,3 @@
-// src/app/pay/page.jsx
 "use client";
 
 import React from "react";
