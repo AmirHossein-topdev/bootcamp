@@ -17,7 +17,7 @@ export default function Hero() {
       "
     >
       <div className="">
-        <h2 className="font-extrabold text-xl text-[rgb(63,66,100)] flex items-center gap-2">
+        <h2 className="font-bold text-xl text-[rgb(63,66,100)] flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -43,13 +43,7 @@ export default function Hero() {
    <h3 className="mt-4 text-[1.7rem] text-[rgb(63,66,100)] font-bold my-3 tracking-tight [text-shadow:0_0_1px_rgba(0,0,0,0.3)]">
   از صفر تا استخدام؛ یادگیری از جنس تجربه!
 </h3>
-<h3 className="mt-4 text-[1.7rem] text-[rgb(63,66,100)] font-extrabold my-3">
-  از صفر تا استخدام؛ یادگیری از جنس تجربه!
-</h3>
-<h3 className="mt-4 text-[1.7rem] md:text-[2rem] text-[rgb(63,66,100)]
-     font-bold font-extrabold md:font-black my-3">
-  از صفر تا استخدام؛ یادگیری از جنس تجربه!
-</h3>
+
 
 
         <p className="font-light text-base  leading-7 text-[rgb(106,108,135)]">
