@@ -83,9 +83,12 @@ export default function Navbar({ menu, setMenu }) {
         <div className="flex flex-col gap-4">
           <div className="text-center mb-4">
             <h2 className="text-2xl font-extrabold text-cyan-500 tracking-tight">
-              فروشگاه X
-            </h2>
-            <p className="text-xs text-gray-500 mt-1">فروشگاه لباس زمستانی</p>
+آکادامی مولتی وب            </h2>
+            <p className="text-2xl text-gray-500 mt-1">
+              
+بوت کمپ زمستان 1404              
+              
+              </p>
           </div>
 
           <nav dir="rtl" className="flex flex-col gap-2">
@@ -93,7 +96,7 @@ export default function Navbar({ menu, setMenu }) {
               <button
                 key={item.id}
                 onClick={() => handleClick(item.id)}
-                className={`block px-4 py-2 rounded-lg text-sm font-[Vazir] font-semibold tracking-tight transition-all duration-200 text-right ${
+                className={`block px-4 py-2 rounded-lg  font-[BYekan] font-bold tracking-tight transition-all duration-200 text-right ${
                   active === item.id
                     ? "bg-cyan-200 text-cyan-700 shadow-inner"
                     : "text-gray-700 hover:bg-cyan-50"

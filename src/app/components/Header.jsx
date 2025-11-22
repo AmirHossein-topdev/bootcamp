@@ -68,7 +68,7 @@ export default function Header() {
       </section>
 
       {/* هدر اصلی */}
-      <section className="flex justify-between items-center w-[85vw] mx-auto mt-2 text-black">
+      <section className="flex justify-between items-center w-[85vw] mx-auto mt-2 text-[rgb(63,66,100)] ">
         <span
           className="p-1 px-3 rounded-2xl flex items-center text-sm gap-1 cursor-pointer md:hidden"
           onClick={() => setMenu(true)}
@@ -76,15 +76,19 @@ export default function Header() {
           <HiOutlineBars3BottomRight size={30} />
         </span>
 
-        <h1 className="font-bold text-lg md:order-1 md:ml-0">
-          <a href="/">
-            <img
-              src="/images/main-icon.svg"
-              alt="icon"
-              className="text-blue-400"
-            />
-          </a>
-        </h1>
+       <h1 className="font-bold text-lg md:order-1 md:ml-0">
+  <a href="/" className="flex items-center gap-3 md:gap-4">
+    <img
+      src="/بارگیری-9.svg"
+      alt="لوگو آکادمی مولتی وب"
+      className="w-10 h-auto md:w-14"
+    />
+    <span className="text-base md:text-xl font-extrabold leading-tight text-[rgb(63,66,100)] ">
+      آکادمی مولتی وب
+    </span>
+  </a>
+</h1>
+
 
         <nav className="hidden md:flex gap-4 items-center justify-center flex-1 order-2">
           {items.map((item) => (
@@ -103,7 +107,6 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* آیکن کاربر + سبد خرید */}
         <span className="relative flex justify-between items-center gap-0 md:order-3">
           {/* User (wrapper با ref برای تشخیص کلیک) */}
           <div className="relative">
