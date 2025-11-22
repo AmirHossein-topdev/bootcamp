@@ -443,7 +443,7 @@ font-bold text-[1.8rem] sm:text-2xl mb-5 text-[rgb(63,66,100)] tracking-tight [t
         <ul className="space-y-2">
           <li className="flex gap-2 items-center">
             <FaPhoneFlip className="text-amber-600" />
-            <a href="tel:09395495581" className="hover:underline">
+            <a href="tel:09395495581" className="hover:underline ">
               تماس تلفنی : 09395495581
             </a>
           </li>
@@ -453,7 +453,7 @@ font-bold text-[1.8rem] sm:text-2xl mb-5 text-[rgb(63,66,100)] tracking-tight [t
               href="https://t.me/mortrza0"
               target="_blank"
               rel="noreferrer"
-              className="hover:underline"
+              className="hover:underline underline"
             >
               پشتیبانی تلگرام
             </a>
@@ -464,7 +464,7 @@ font-bold text-[1.8rem] sm:text-2xl mb-5 text-[rgb(63,66,100)] tracking-tight [t
               href="https://wa.me/989395495581"
               target="_blank"
               rel="noreferrer"
-              className="hover:underline"
+              className="hover:underline underline"
             >
               پشتیبانی واتس اپ
             </a>
