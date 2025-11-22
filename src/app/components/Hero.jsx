@@ -40,7 +40,7 @@ export default function Hero() {
           </svg>
           بوت کمپ جامع فرانت اند + ورکشاپ کاریابی
         </h2>
-       <h3 className="mt-4 font-black text-[1.7rem] text-[rgb(63,66,100)] my-3">
+    <h3 className="mt-4 text-[1.7rem] text-[rgb(63,66,100)] font-black my-3">
   از صفر تا استخدام؛ یادگیری از جنس تجربه!
 </h3>
 
@@ -97,16 +97,18 @@ export default function Hero() {
 
 
 
-       <Link
+     <Link
   href="#introduction"
-  className="bg-gradient-to-tl from-[#4B6EFF] to-[#6E8AFF] 
-             mt-10 px-6 py-3 ml-10 rounded-3xl 
+  className="block w-max mt-8 px-6 py-3 mr-4
+             rounded-3xl 
+             bg-gradient-to-tl from-[#4B6EFF] to-[#6E8AFF] 
              text-white font-extrabold text-lg
              shadow-[0_0_20px_rgba(75,110,255,0.6)] 
              transition-all duration-300 hover:shadow-[0_0_25px_rgba(75,110,255,0.8)]"
 >
   بزن بریم!
 </Link>
+
 
       </div>
 
