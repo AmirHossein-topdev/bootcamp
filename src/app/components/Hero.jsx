@@ -40,32 +40,74 @@ export default function Hero() {
           </svg>
           بوت کمپ جامع فرانت اند + ورکشاپ کاریابی
         </h2>
-        <h3 className="mt-4 text-blue-900 font-bold text-2xl my-3">
-          از صفر تا استخدام؛ یادگیری از جنس تجربه!
-        </h3>
-        <p className="font-light text-sm text-gray-500">
-          برنامه روزانه و منتورینگ تا استخدام، پروژه‌های واقعی، کلاس‌های آنلاین
-          هفتگی، ورکشاپ کاریابی و پولسازی از لینکدین
-        </p>
-        <div className="flex justify-evenly text-sm text-gray-500 my-5 mb-8">
-          <div className="flex items-center gap-2">
-            <img src="/images/clock.svg" alt="clock" width={25} /> ۱۶۰ ساعت
-          </div>
-          <div className="flex items-center gap-2">
-            <img src="/images/callender.svg" alt="calendar" width={25} /> ۳۶
-            هفته
-          </div>
-          <div className="flex items-center gap-2">
-            <img src="/images/winter.svg" alt="winter" width={25} /> زمستان ۱۴۰۴
-          </div>
-        </div>
+       <h3 className="mt-4 font-black text-[1.7rem] text-[rgb(63,66,100)] my-3">
+  از صفر تا استخدام؛ یادگیری از جنس تجربه!
+</h3>
 
-        <Link
-          href="#introduction"
-          className="bg-gradient-to-tl from-[#4B6EFF] to-[#6E8AFF] mt-10 p-2 px-3 rounded-3xl text-white font-bold shadow-xl"
-        >
-          بزن بریم!
-        </Link>
+        <p className="font-light text-base  leading-7 text-[rgb(106,108,135)]">
+  برنامه روزانه و منتورینگ تا استخدام، پروژه‌های واقعی، کلاس‌های آنلاین
+  هفتگی، ورکشاپ کاریابی و پولسازی از لینکدین
+</p>
+
+
+
+
+
+
+
+<div className="rtl flex justify-start text-sm text-[rgb(106,108,135)] my-5 mb-8 gap-6">
+
+  <div className="flex items-center gap-2">
+    <img
+      src="/images/clock.svg"
+      alt="clock"
+      width={25}
+      className="icon-colored"
+    />
+    ۱۶۰ ساعت
+  </div>
+
+  <div className="relative flex items-center gap-2 px-4">
+    <span className="absolute left-0 top-1/2 -translate-y-1/2 h-4 w-px bg-[rgb(106,108,135)] opacity-40"></span>
+
+    <img
+      src="/images/callender.svg"
+      alt="calendar"
+      width={25}
+      className="icon-colored"
+    />
+    ۳۶ هفته
+
+    <span className="absolute right-0 top-1/2 -translate-y-1/2 h-4 w-px bg-[rgb(106,108,135)] opacity-40"></span>
+  </div>
+
+  <div className="flex items-center gap-2">
+    <img
+      src="/images/winter.svg"
+      alt="winter"
+      width={25}
+      className="icon-colored"
+    />
+    زمستان ۱۴۰۴
+  </div>
+
+</div>
+
+
+
+
+
+       <Link
+  href="#introduction"
+  className="bg-gradient-to-tl from-[#4B6EFF] to-[#6E8AFF] 
+             mt-10 px-6 py-3 ml-10 rounded-3xl 
+             text-white font-extrabold text-lg
+             shadow-[0_0_20px_rgba(75,110,255,0.6)] 
+             transition-all duration-300 hover:shadow-[0_0_25px_rgba(75,110,255,0.8)]"
+>
+  بزن بریم!
+</Link>
+
       </div>
 
       <div className="">
@@ -73,7 +115,7 @@ export default function Hero() {
           <img
             src="/images/banner.webp"
             alt="banner"
-            className="size-70 mx-auto"
+            className="size-100 mx-auto"
           />
         </div>
       </div>

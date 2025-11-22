@@ -13,10 +13,10 @@ const items = [
     title: "معرفی",
     content: (
       <>
-        <h2 className="text-2xl font-bold mb-5 font-[BYekan]">
+        <h2 className="font-black text-2xl  mb-5 font-[BYekan] text-[rgb(63,66,100)] ">
           بوت کمپ فرانت اند زمستان ۱۴۰۴؛ شروعی مطمئن برای برنامه نویسی
         </h2>
-        <p className="text-gray-600 ">
+        <p className=" text-gray-600 ">
           ما باور داریم آموزش باید شما را تا رسیدن به بازار کار همراهی کند. به
           همین دلیل،
           <strong>بوت‌کمپ زمستان ۱۴۰۴</strong> تنها یک دوره آموزشی نیست؛ بلکه
@@ -26,7 +26,7 @@ const items = [
           دوره آموزشی دیگری نخواهید داشت.
         </p>
 
-        <h2 className="text-2xl font-bold my-5">
+        <h2 className="text-2xl font-bold my-5 text-[rgb(63,66,100)]">
           ورکشاپ کاریابی و پول سازی؛ برگ برنده بوت کمپ
         </h2>
         <p className="text-gray-600">
@@ -39,7 +39,7 @@ const items = [
           درآمد خود را تجربه کنید.
         </p>
 
-        <h2 className="text-2xl font-bold my-5">هدف اصلی بوت کمپ فرانت</h2>
+        <h2 className="text-[rgb(63,66,100)] text-2xl font-bold my-5">هدف اصلی بوت کمپ فرانت</h2>
         <p className="text-gray-600">
           هدف اصلی این دوره، تبدیل شما به یک{" "}
           <strong>توسعه‌دهنده فرانت‌اند</strong> است که بتواند تمام کارهای لازم
@@ -61,7 +61,7 @@ const items = [
     title: "نیازمندی‌ها",
     content: (
       <>
-        <h2 className="text-xl font-bold mb-5">مرور چند نکته مهم</h2>
+        <h2 className=" text-[rgb(63,66,100)] font-bold mb-5 text-2xl">مرور چند نکته مهم</h2>
         <ul className="list-disc list-inside space-y-2 text-lg my-5 text-gray-600">
           <li>
             برای ثبت نام در این دوره به هیچ پیش‌نیاز یا پیش‌زمینه‌ای نیاز
@@ -95,7 +95,7 @@ const items = [
           </li>
         </ul>
 
-        <p className="font-medium text-[17px]">
+        <p className="font-medium text-[17px] text-gray-600">
           شروع یادگیری به مهارت جدید میتونه سخت باشه اما بنظرم سخت ترین قسمت فقط
           شروع کاره کافیه شروع کنید تا طی آموزشها و برنامه های منظم این بوت کمپ
           بدون سعی و خطا و اتلاف وقت به هدف تون برسید. این بوت کپ صرفا به دوره
@@ -112,9 +112,12 @@ const items = [
     title: "ویژگی‌ها",
     content: (
       <>
+      <h2 className="font-black  text-2xl  mb-5 font-[BYekan] text-[rgb(63,66,100)] ">
+        مزیت های بوت کمپ مولتی وب 
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
           <div className="bg-white space-y-3 rounded-xl p-4 text-center flex flex-col items-center">
-            <h2 className="text-xl font-bold mb-2 text-center">
+            <h2 className="text-xl font-bold mb-2 text-center text-[rgb(63,66,100)]">
               برنامه ریزی دقیق و منظم
             </h2>
 
@@ -140,7 +143,7 @@ const items = [
             </p>
           </div>
           <div className="bg-white space-y-3 rounded-xl p-4 text-center flex flex-col items-center">
-            <h2 className="text-xl font-bold mb-2 text-center">
+            <h2 className="text-xl font-bold mb-2 text-center text-[rgb(63,66,100)]">
               کلاس های آنلاین هفتگی
             </h2>
             <svg
@@ -167,7 +170,7 @@ const items = [
             </p>
           </div>
           <div className="bg-white space-y-3 rounded-xl p-4 text-center flex flex-col items-center">
-            <h2 className="text-xl font-bold mb-2 text-center">
+            <h2 className="text-xl font-bold mb-2 text-center text-[rgb(63,66,100)]">
               آزمون های میان دوره و پایان دوره
             </h2>
             <svg
@@ -194,7 +197,7 @@ const items = [
             </p>
           </div>
           <div className="bg-white space-y-3 rounded-xl p-4 text-center flex flex-col items-center">
-            <h2 className="text-xl font-bold mb-2 text-center">
+            <h2 className="text-xl font-bold mb-2 text-center text-[rgb(63,66,100)]">
               آموزش با کیفیت و به روز
             </h2>
             <svg
@@ -219,7 +222,7 @@ const items = [
             </p>
           </div>
           <div className="bg-white space-y-3 rounded-xl p-4 text-center flex flex-col items-center">
-            <h2 className="text-xl font-bold mb-2 text-center">پروژه محور</h2>
+            <h2 className="text-xl font-bold mb-2 text-center text-[rgb(63,66,100)]">پروژه محور</h2>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -243,7 +246,7 @@ const items = [
             </p>
           </div>
           <div className="bg-white space-y-3 rounded-xl p-4 text-center flex flex-col items-center">
-            <h2 className="text-xl font-bold mb-2 text-center">
+            <h2 className="text-xl font-bold mb-2 text-center text-[rgb(63,66,100)]">
               گزارش عملکرد روزانه
             </h2>
             <svg
@@ -269,7 +272,7 @@ const items = [
             </p>
           </div>
           <div className="bg-white space-y-3 rounded-xl p-4 text-center flex flex-col items-center">
-            <h2 className="text-xl font-bold mb-2 text-center">
+            <h2 className="text-xl font-bold mb-2 text-center text-[rgb(63,66,100)]">
               معرفی به بازار کار
             </h2>
             <svg
@@ -295,7 +298,7 @@ const items = [
             </p>
           </div>
           <div className="bg-white space-y-3 rounded-xl p-4 text-center flex flex-col items-center">
-            <h2 className="text-xl font-bold mb-2 text-center">
+            <h2 className="text-xl font-bold mb-2 text-center text-[rgb(63,66,100)]">
               پشتیبانی و منتورینگ
             </h2>
             <svg
@@ -321,7 +324,7 @@ const items = [
             </p>
           </div>
           <div className="bg-white space-y-3 rounded-xl p-4 text-center flex flex-col items-center">
-            <h2 className="text-xl font-bold mb-2 text-center">
+            <h2 className="text-xl font-bold mb-2 text-center text-[rgb(63,66,100)]">
               ورکشاپ کاریابی و پولسازی
             </h2>
             <svg
@@ -363,7 +366,7 @@ const items = [
     title: "درامد",
     content: (
       <>
-        <h2 className="text-2xl font-black mb-3">حداقل درآمد فرانت اند</h2>
+        <h2 className="text-2xl font-black mb-3 text-[rgb(63,66,100)]">حداقل درآمد فرانت اند</h2>
         <p className="mb-2 text-base text-gray-700 leading-loose">
           بنظرم بهتره خودتون جواب این سوال رو پیدا کنید. کافیه با یه سرچ ساده در
           سایت جابینجا آگهی های استخدامی فرانت رو ببینید. متوجه خواهید شد که
@@ -375,7 +378,7 @@ const items = [
           استخدام شدند و بعد 1 سال به حقوق بالای 25 میلیون هم رسیدند. دانشجویانی
           که بالای 2-3 سال سابقه کار دارن اکثرا با حقوق
         </p>
-        <h2 className="text-xl font-bold my-5">هزینه یا سرمایه گذاری؟</h2>
+        <h2 className="text-xl font-bold my-5 text-[rgb(63,66,100)]">هزینه یا سرمایه گذاری؟</h2>
         <p className="text-base leading-loose text-gray-700 mb-5">
           هزینه ای که شما برای این دوره آموزشی پرداخت می کنید میتوان گفت به هیچ
           عنوان هزینه نیست
@@ -408,7 +411,7 @@ const items = [
     title: "مشاوره قبل ثبت نام",
     content: (
       <>
-        <h2 className="text-2xl font-black mb-3"> مشاوره قبل ثبت نام</h2>
+        <h2 className="text-2xl font-black mb-3 text-[rgb(63,66,100)]"> مشاوره قبل ثبت نام</h2>
         <p className="mb-2 text-base text-gray-700 leading-loose">
           میتوانید از طریق راه های ارتباطی پایین با ما در ارتباط باشید:
         </p>
@@ -451,18 +454,22 @@ const items = [
     title: "تجربه دانشجویان",
     content: (
       <>
-        <h2 className="text-xl font-bold mb-5"> تجربه دانشجویان</h2>
+        <h2 className="text-xl font-bold mb-5 text-[rgb(63,66,100)]"> تجربه دانشجویان</h2>
         <p>بخشی از تجربه های دانشجویان بوت کمپ های قبلی رو با هم ببینیم:</p>
-        {/* <div className="flex gap-4 my-5 overflow-scroll hide-scrollbar">
-          {images.map((num) => (
-            <img
-              key={num}
-              src={`/images/experience${num}.jpg`}
-              alt={`experience ${num}`}
-              className="w-[70%] h-auto rounded-lg shadow"
-            />
-          ))}
-        </div> */}
+        <div className="flex gap-4 my-5 overflow-scroll hide-scrollbar">
+         {images.map((num) => (
+  <img
+    key={num}
+    src={`/images/experience${num}.jpg`}
+    alt={`experience ${num}`}
+    className="w-[70%] h-auto rounded-lg shadow"
+    onError={(e) => {
+      e.currentTarget.style.display = "none"; // اگر تصویر وجود نداشت، پنهان شود
+    }}
+  />
+))}
+
+        </div>
       </>
     ),
   },
@@ -473,7 +480,7 @@ const items = [
 
     content: (
       <>
-        <h2 className="text-xl font-bold mb-5">ثبت نام</h2>
+        <h2 className="text-xl font-bold mb-5 text-[rgb(63,66,100)]">ثبت نام</h2>
         <ul className="text-gray-700 leading-7 space-y-4">
           <li>
             اگر دانشجوی قبلی دوره‌ها هستید، شماره موبایلی که با آن دوره‌ها را

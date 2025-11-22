@@ -153,7 +153,7 @@ const items = [
 export default function Faq() {
   return (
     <div className="w-[90vw] max-w-2xl mx-auto mt-10 ">
-      <h2 id="headlines" className="text-2xl font-black mb-3">
+      <h2 id="headlines" className="text-2xl font-black mb-3 text-[rgb(63,66,100)]">
         سوالات متداول
       </h2>
 

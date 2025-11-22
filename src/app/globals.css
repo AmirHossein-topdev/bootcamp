@@ -5,9 +5,10 @@
   --foreground: #171717;
 }
 
+
 @font-face {
   font-family: "Vazir";
-  src: url("/fonts/Vazir.woff2") format("woff2");
+  src: url("/public/fonts/Vazir.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +17,9 @@
   src: url("/fonts/BYekan.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
+
 
 @font-face {
   font-family: "BYekanBold";
@@ -24,6 +27,8 @@
   font-weight: bold;
   font-style: normal;
 }
+
+
 
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
@@ -54,5 +59,18 @@ body {
   font-family: "BYekan", "BYekanBold", "Vazir", Arial, Helvetica, sans-serif;
 }
 p {
+  font-size: 1.1rem;
   line-height: 30px;
 }
+h3 {
+  color: #3f4264;
+  font-weight: 900
+}
+.rtl {
+  direction: rtl;
+}
+.icon-colored {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(6%) saturate(558%)
+    hue-rotate(200deg) brightness(91%) contrast(90%);
+}
+

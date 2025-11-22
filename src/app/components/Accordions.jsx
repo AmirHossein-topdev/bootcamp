@@ -46,7 +46,7 @@ const items = [
 export default function Accordions() {
   return (
     <div className="w-[90vw] max-w-2xl mx-auto mt-10 ">
-      <h2 id="headlines" className="text-2xl font-black mb-3">
+      <h2 id="headlines" className="text-2xl font-black mb-3 text-[rgb(63,66,100)]">
         سر فصل ها و نقشه راه یادگیری
       </h2>
       <p className="text-gray-700 mb-5 text-sm">
