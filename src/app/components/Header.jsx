@@ -74,7 +74,7 @@ export default function Header() {
           onClick={() => setMenu(true)}
         >
           <HiOutlineBars3BottomRight size={30} />
-        </span>``
+        </span>
 
        <h1 className="font-bold text-lg md:order-1 md:ml-0">
   <a href="/" className="flex items-center gap-3 md:gap-4">
